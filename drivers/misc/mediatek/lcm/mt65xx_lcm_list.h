@@ -15,6 +15,7 @@
 #define __MT65XX_LCM_LIST_H__
 
 #include <lcm_drv.h>
+extern LCM_DRIVER st7701s_fwvga_dsi_vdo_coe_ivo_b1_lcm_drv;
 //by nik-kst for x5
 extern LCM_DRIVER hct_otm1285a_dsi_vdo_hd_boe;
 extern LCM_DRIVER hct_ili9881_dsi_vdo_hd_cpt;

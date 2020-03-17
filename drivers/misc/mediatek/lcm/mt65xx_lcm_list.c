@@ -34,6 +34,9 @@ LCM_DSI_MODE_CON lcm_dsi_mode;
 #endif
 
 LCM_DRIVER *lcm_driver_list[] = {
+#if defined(ST7701S_FWVGA_DSI_VDO_COE_IVO_B1)
+&st7701s_fwvga_dsi_vdo_coe_ivo_b1_lcm_drv,
+#endif
 //by nik-kst for x5
 #if defined(HCT_OTM1285A_DSI_VDO_HD_BOE)
 &hct_otm1285a_dsi_vdo_hd_boe,
